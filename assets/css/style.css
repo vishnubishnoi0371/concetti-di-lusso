@@ -65,7 +65,7 @@ ul {
 }
 
 .flow-hidden {
-    overflow-y: hidden;
+    overflow-y: hidden ;
 }
 
 .gap-40 {
@@ -145,6 +145,57 @@ ul {
         left: 0;
     }
 }
+
+
+/* sec-1 */
+.sec-1-bg-img{
+    background-image: url('../images/sec-1-bg-img.png');
+    background-size: 100% 100%;
+    background-position: fixed;
+}
+.sec-1-head{
+   
+        font-size: var(--fs-xl6);
+        font-weight: var(--fw-xl);
+        font-family: var(--ff-1);
+        color: var(--clr-wh);
+        max-width: 442px;
+        line-height: 117%;
+   
+}
+.sec-1-head-2{
+   
+        font-size: var(--fs-xl2);
+        font-weight: var(--fw-md);
+        font-family: var(--ff-2);
+        color: var(--clr-wh);
+   
+}
+.sec-1-btn{
+    font-size: var(--fs-xl1);
+    font-weight: var(--fw-xl);
+    font-family: var(--ff-1);
+    color: var(--clr-pink);
+    background: var(--clr-wh-bg);
+    padding: 10px 28px;
+    border: none;
+    border-radius: 5px;
+}
+.pt-12{
+    padding-top: 12px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width:575.8px) {
