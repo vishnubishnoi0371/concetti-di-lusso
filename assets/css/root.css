@@ -1,0 +1,154 @@
+    :root {
+
+        /* font-size */
+        --fs-sm: 14px;
+        --fs-sm-10: 10px;
+        --fs-md: 16px;
+        --fs-lg: 17px;
+        --fs-xl1: 18px;
+        --fs-xl2: 24px;
+        --fs-xl3: 30px;
+        --fs-xl4: 36px;
+        --fs-xl5: 58px;
+        --fs-xl6: 64px;
+
+
+        /* font-weight */
+        --fw-sm: 300;
+        --fw-md: 400;
+        --fw-lg: 500;
+        --fw-xl: 600;
+        --fw-xxl: 700;
+
+        /* font-family */
+        --ff-1: 'Hind Siliguri', sans-serif;
+        --ff-2: 'Open Sans', sans-serif;
+
+        /* color */
+        --clr-wh: #FFF;
+        --bg-white: white;
+        --clr-wh-bg: #FFF;
+        --clr-bl: #040404;
+        --clr-bl-bg: #040404;
+        --clr-gray-lite: #F7F7F7;
+        --clr-gray-lite-1: #F3F5F8;
+        --clr-gray: #686868;
+        --clr-pink: #9E3040;
+        --clr-pink-bg: #9E3040;
+
+    }
+
+    /* size */
+    .fs-sm {
+        font-size: var(--fs-sm);
+    }
+    .fs-sm-10 {
+        font-size: var(--fs-sm-10);
+    }
+
+    .fs-md {
+        font-size: var(--fs-md);
+    }
+
+    .fs-lg {
+        font-size: var(--fs-lg);
+    }
+
+    .fs-xl1 {
+        font-size: var(--fs-xl1);
+    }
+
+    .fs-xl2 {
+        font-size: var(--fs-xl2);
+    }
+
+    .fs-xl3 {
+        font-size: var(--fs-xl3);
+    }
+
+    .fs-xl4 {
+        font-size: var(--fs-xl4);
+    }
+
+    .fs-xl5 {
+        font-size: var(--fs-xl5);
+    }
+
+    .fs-xl6 {
+        font-size: var(--fs-xl6);
+    }
+
+
+
+    /* weight */
+
+    .fw-sm {
+        font-weight: var(--fw-sm);
+    }
+
+    .fw-md {
+        font-weight: var(--fw-md);
+    }
+
+    .fw-lg {
+        font-weight: var(--fw-lg);
+    }
+
+    .fw-xl {
+        font-weight: var(--fw-xl);
+    }
+
+    .fw-xxl {
+        font-weight: var(--fw-xxl);
+    }
+
+
+
+
+    /* family */
+    .ff-1 {
+        font-family: var(--ff-1);
+    }
+
+    .ff-2 {
+        font-family: var(--ff-2);
+    }
+
+
+
+
+    /* color */
+    .clr-wh {
+        color: var(--clr-wh);
+    }
+    .bg-white {
+        background-color: var(--bg-white);
+    }
+    .clr-wh-bg {
+        background: var(--clr-wh-bg);
+    }
+
+    .clr-bl {
+        color: var(--clr-bl);
+    }
+    .clr-bl-bg {
+        background: var(--clr-bl-bg);
+    }
+
+    .clr-gray-lite {
+        background: var(--clr-gray-lite);
+    }
+    .clr-gray-lite-1 {
+        background: var(--clr-gray-lite-1);
+    }
+
+    .clr-gray {
+        color: var(--clr-gray);
+    }
+
+    .clr-pink {
+        color: var(--clr-pink);
+    }
+    .clr-pink-bg {
+       background: var(--clr-pink-bg);
+    }
